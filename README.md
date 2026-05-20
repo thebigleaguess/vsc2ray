@@ -1,8 +1,8 @@
-only works in places where you can open github codespaces
-
 ## setup
 1. fork the repo
-2. click the green "Code" button above, go to the "Codespaces" tab, and click "Create codespace on main."
+2. download visual studio code
+3. download github codespaces extention for vscode
+4. open the codespace in vscode
 
 ## how to use
 - wait some minutes for the codespace. it needs some time to setup everything.
