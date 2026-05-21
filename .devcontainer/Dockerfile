@@ -11,6 +11,6 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 RUN chmod +x /app/install.sh && /app/install.sh
 COPY config.json /etc/config.json
 
-RUN echo 'echo -e "\n✅ VLESS LINK:\nsocks://Og@127.0.0.1:443#vsctun"' >> /etc/bash.bashrc
+RUN echo 'echo -e "\n✅ VLESS LINK:\nvless://21b0e68f-8e60-45c7-a36e-61e348258641@127.0.0.1:443?encryption=none&security=none&type=httpupgrade#vsctun"' >> /etc/bash.bashrc
 
 CMD ["/usr/local/bin/xray", "-c", "/etc/config.json"]

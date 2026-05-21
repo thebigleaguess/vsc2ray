@@ -1,18 +1,28 @@
 {
-    "inbounds": [
-      {
-        "port": 443,
-        "protocol": "socks",
-        "settings": {
-          "auth": "noauth",
-          "udp": true,
-          "ip": "127.0.0.1"
+  "inbounds": [
+    {
+      "port": 443,
+      "protocol": "vless",
+      "settings": {
+        "clients": [
+          {
+            "id": "21b0e68f-8e60-45c7-a36e-61e348258641",
+            "level": 0
+          }
+        ],
+        "decryption": "none"
+      },
+      "streamSettings": {
+        "network": "httpupgrade",
+        "httpupgradeSettings": {
+          "path": "/"
         }
       }
-    ],
-    "outbounds": [
+    }
+  ],
+  "outbounds": [
       {
         "protocol": "freedom"
       }
-    ]
+  ]
 }
