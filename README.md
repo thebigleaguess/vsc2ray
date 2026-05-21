@@ -2,9 +2,11 @@
 1. fork the repo
 2. download visual studio code
 3. download github codespaces extention for vscode
+
   3.1 (https://marketplace.visualstudio.com/items?itemName=GitHub.codespaces)
+   
   3.2 (https://docs.github.com/en/codespaces/developing-in-a-codespace/using-github-codespaces-in-visual-studio-code)
-4. open the codespace in vscode
+5. open the codespace in vscode
 
 ## how to use
 - wait some minutes for the codespace. it needs some time to setup everything.
