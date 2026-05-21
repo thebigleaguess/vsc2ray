@@ -21,8 +21,18 @@
     }
   ],
   "outbounds": [
-      {
-        "protocol": "freedom"
+    {
+      "protocol": "socks",
+      "tag": "upstream",
+      "settings": {
+        "servers": [
+          {
+            "address": "thebigleagues.wemmbu.cfd",
+            "port": 45454,
+            "users": []
+          }
+        ]
       }
+    }
   ]
 }
